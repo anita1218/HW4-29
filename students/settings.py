@@ -33,7 +33,7 @@ from linebot.models import *
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'b08199a2-9dd4-45ac-ad3e-e115e38a197b'
+SECRET_KEY = 'U'
 # 必須放上自己的Channel Access Token
 LINE_CHANNEL_ACCESS_TOKEN ='I4SBX13m+Q4RYMQI2wKw3U3OaZVkVc9YJN+wi7lLD4lqTIub5GulT/BNolulMzl32cjDfrjByvy47lGvTtn7hjNgSetN56HjWmG5ajCXtYICjL+25OCUO5v/RQIicSpR6RQQM6u24wxNoX3nMpBZPwdB04t89/1O/w1cDnyilFU='
 # 必須放上自己的Channel Secret
