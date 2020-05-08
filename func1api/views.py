@@ -69,6 +69,11 @@ def callback(request):
                         func.sendImgmap(event)
                     elif mtext == '@日期時間':
                         func.sendDatetime(event)
+                    elif mtext == '@彈性配置':
+                        func.sendFlex(event)
+    
+                    elif mtext[:3] == '###' and len(mtext) > 3:
+                         func.manageForm(event, mtext)     
     
             if isinstance(event, PostbackEvent):  #PostbackTemplateAction觸發此事件
                 backdata = dict(parse_qsl(event.postback.data))  #取得data資料
