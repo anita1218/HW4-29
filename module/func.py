@@ -103,15 +103,15 @@ def sendButton(event):  #按鈕樣版
                 actions=[
                     MessageTemplateAction(  #顯示文字計息
                         label='文字訊息',
-                        text='@購買披薩'
+                        text='@牛排'
                     ),
                     URITemplateAction(  #開啟網頁
-                        label='連結網頁',
+                        label='連結銘傳網站',
                         uri='http://www.e-happy.com.tw'
                     ),
                     PostbackTemplateAction(  #執行Postback功能,觸發Postback事件
                         label='回傳訊息',  #按鈕文字
-                        #text='@購買披薩',  #顯示文字計息
+                        #text='@牛排',  #顯示文字計息
                         data='action=buy'  #Postback資料
                     ),
                 ]
