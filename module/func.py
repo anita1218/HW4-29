@@ -97,7 +97,7 @@ def sendButton(event):  #按鈕樣版
         message = TemplateSendMessage(
             alt_text='按鈕樣板',
             template=ButtonsTemplate(
-                thumbnail_image_url='https://i.imgur.com/SKw73MQ.png',  #顯示的圖片
+                thumbnail_image_url="https://i.imgur.com/SKw73MQ.png",  #顯示的圖片
                 title='alice',  #主標題
                 text='個人頁面：',  #副標題
                 actions=[
@@ -107,7 +107,7 @@ def sendButton(event):  #按鈕樣版
                     ),
                     URITemplateAction(  #開啟網頁
                         label='連結銘傳網頁',
-                        uri='http://wed.mcu.edu.tw/'
+                        uri="http://wed.mcu.edu.tw/"
                     ),
                     PostbackTemplateAction(  #執行Postback功能,觸發Postback事件
                         label='回傳訊息',  #按鈕文字
