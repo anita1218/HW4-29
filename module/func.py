@@ -5,6 +5,8 @@ from linebot.models import TextSendMessage, ImageSendMessage, StickerSendMessage
 from linebot.models import TemplateSendMessage,ConfirmTemplate, MessageTemplateAction, ButtonsTemplate, PostbackTemplateAction, URITemplateAction, CarouselTemplate, CarouselColumn, ImageCarouselTemplate, ImageCarouselColumn
 from linebot.models import ImagemapSendMessage, BaseSize, MessageImagemapAction, URIImagemapAction, ImagemapArea, TemplateSendMessage, ButtonsTemplate, DatetimePickerTemplateAction
 from linebot.models import TextSendMessage, AudioSendMessage, VideoSendMessage
+from linebot.models import TextSendMessage, BubbleContainer, ImageComponent, BoxComponent, TextComponent, IconComponent, ButtonComponent, SeparatorComponent, FlexSendMessage, URIAction
+
 import datetime
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 baseurl = "https://github.com/lowenchi0509/st2/tree/master/media/"
