@@ -106,8 +106,8 @@ def sendButton(event):  #按鈕樣版
                         text='@自己'
                     ),
                     URITemplateAction(  #開啟網頁
-                        label='連結銘傳網站',
-                        uri='https://web.mcu.edu.tw/'
+                        label='連結銘傳網頁',
+                        uri='http://wed.mcu.edu.tw/'
                     ),
                     PostbackTemplateAction(  #執行Postback功能,觸發Postback事件
                         label='回傳訊息',  #按鈕文字
