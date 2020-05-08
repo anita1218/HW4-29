@@ -371,6 +371,7 @@ def sendVedio(event):  #傳送影像
         line_bot_api.reply_message(event.reply_token, message)
     except:
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text='發生錯誤！'))
+        
 def sendFlex(event):  #彈性配置
     try:
         bubble = BubbleContainer(
